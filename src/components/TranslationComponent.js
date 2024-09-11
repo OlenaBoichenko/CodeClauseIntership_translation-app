@@ -4,7 +4,7 @@ import { translateText } from "./TranslationService";
 const TranslateComponent = () => {
   const [text, setText] = useState("");
   const [translatedText, setTranslatedText] = useState("");
-  const [targetLanguage, setTargetLanguage] = useState("");
+  const [targetLanguage, setTargetLanguage] = useState("en");
 
   const languages = [
     
